@@ -1,4 +1,4 @@
-sudo apt install -y zsh tmux xsel fonts-powerline
+sudo apt install -y git zsh tmux xsel fonts-powerline
 
 
 sudo chsh $USER -s `which zsh`
