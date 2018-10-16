@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "   `nmcli -f SSID,BARS dev wifi|tail -n1)`"
+

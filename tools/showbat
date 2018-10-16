@@ -1,0 +1,15 @@
+#!/bin/sh
+p=$(upower -i /org/freedesktop/UPower/devices/battery_BAT0 | awk '$1=="percentage:"{print $2}' | tr -d '%')
+if [ $p -lt 10 ]; then
+    i=''
+elif [ $p -lt 30 ]; then
+    i=''
+elif [ $p -lt 70 ]; then
+    i=''
+elif [ $p -lt 90 ]; then
+    i=''
+else
+    i=''
+fi
+
+echo "$i  $p%"
