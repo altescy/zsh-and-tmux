@@ -1,2 +1,2 @@
 #!/bin/sh
-nmcli -f IN-USE,SSID,BARS dev wifi | awk '$1=="*"{ print $2 " " $3  }'
+nmcli -f IN-USE,SSID,BARS dev wifi | awk '$1=="*"{ print "  "$2 " " $3  }'
