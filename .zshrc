@@ -152,6 +152,8 @@ if [ ! -n "$TMUX" ]; then
     exit
 fi
 
+bindkey -v
+bindkey "jj" vi-cmd-mode
 
 stty stop undef
 
