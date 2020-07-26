@@ -1,5 +1,7 @@
 # zsh-and-tmux
 
+:warning: ***Now zsh and tmux configs are managed in [altescy/dotfiles](https://github.com/altescy/dotfiles) with other configs.***
+
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/altescy/zsh-and-tmux/master/install.sh)"
 
